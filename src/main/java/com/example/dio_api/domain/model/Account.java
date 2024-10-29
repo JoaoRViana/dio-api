@@ -25,7 +25,7 @@ public class Account {
     @Column(name = "Balance", scale = 2)
     private BigDecimal balance;
 
-    @Column(name = "Limit", scale = 2)
+    @Column(name = "limitAmmount", scale = 2)
     private BigDecimal limit;
 
 
